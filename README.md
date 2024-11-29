@@ -14,6 +14,6 @@ Anyone can Run this 4 simple steps.
    pip install -r requirements.txt
    
 4. Run the Web App
-   Now, go ahead and run the app. Just click on Web.py and then execute with below command:  This will open the window 
+   Now go ahead and run the app. Just click on Web.py and then execute with below command:  This will open the window 
    streamlit run web.py 
 
