@@ -1,0 +1,38 @@
+credentials:
+  usernames:
+    hr73:
+      email: "hariharanravichandran15@gmail.com"
+      first_name: "Hariharan"
+      last_name: "Ravichandran"
+      password: "pass"
+    vm88:
+      email: "hari511202@gmail.com"
+      first_name: "Vasanth"
+      last_name: "Marimuthu"
+      password: "passvm"
+    vb96:
+      email: "hari511202@gmail.com"
+      first_name: "Vishnu"
+      last_name: "Karthik"
+      password: "passvb"
+    jv99:
+      email: "hari511202@gmail.com"
+      first_name: "Jayendhren"
+      last_name: "Vivekanandhan"
+      password: "passjv"
+    CS15:
+      email: "hari511202@gmail.com"
+      first_name: "Mr.Christian"
+      last_name: "Schlomann"
+      password: "pass"
+
+
+cookie:
+  name: "auth_cookie"
+  key: "random_secret_key"
+  expiry_days: 1
+
+preauthorized:
+  emails:
+    - "hariharan@example.com"
+    - "guest@example.com"
