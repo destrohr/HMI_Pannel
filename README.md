@@ -10,10 +10,10 @@ Anyone can Run this 4 simple steps.
     cd HMI_pannel
 
 3. Install Dependencies
-   You will need to install some Python packages (because apparently, you cannot just run it without them). Use this command: 
+   You will need to install some Python packages. Use this command: 
    pip install -r requirements.txt
    
 4. Run the Web App
-   Now, go ahead and run the app. Just click on Web.py and then execute with below command: , This will open the window (yes, it’s that simple).
+   Now, go ahead and run the app. Just click on Web.py and then execute with below command:  This will open the window 
    streamlit run web.py 
 
