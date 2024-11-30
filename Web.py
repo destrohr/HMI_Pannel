@@ -48,6 +48,7 @@ if st.session_state['authentication_status']:
         columns()
 
 
+#here the buttons are modifies to send json request, the chage will show in json file in repositrey. This can be modified in future.
         def start_button():
             left, middle, right = st.columns(3)
             with middle:
@@ -92,7 +93,7 @@ if st.session_state['authentication_status']:
     elif selected_page == "Automatic":
 
         st.header("Automatic Heating Control")
-
+#the automatic button will display teh parameters from teh generator, but for now it has inputs value for demonstration purpose this willl be change in future.
         def automatic_button():
             left, middle, right  = st.columns(3)
             with left:
