@@ -25,6 +25,8 @@ if st.session_state['authentication_status']:
           st.write(f'Welcome *{st.session_state["name"]}*')
           authenticator.logout()
           selected_page = st.radio("Mode", ["Manual", "Automatic"])
+          #below is the simpel example to save teh parameters with sqlite.You can do it if ,it is required.
+          #this will only show the drop down window in the sidebar. you need to chaneg some code if you add sqlite
           #st.sidebar.selectbox("Saved", ["A", "B", "C","D", "E", "F", "G", "H","I", "J", "K", "L", "M","N", "O", "P"], key="foo")
 
     if selected_page == "Manual":
@@ -93,7 +95,7 @@ if st.session_state['authentication_status']:
     elif selected_page == "Automatic":
 
         st.header("Automatic Heating Control")
-#the automatic button will display teh parameters from teh generator, but for now it has inputs value for demonstration purpose this willl be change in future.
+#the automatic button will display teh parameters from thh generator, but for now it has inputs value for demonstration purpose this will be change in future.
         def automatic_button():
             left, middle, right  = st.columns(3)
             with left:
