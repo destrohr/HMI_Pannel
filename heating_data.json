@@ -1,6 +1,5 @@
 {
-    "time": 89,
-    "power": 89,
-    "heating_on": false,
-    "status": "Stopped"
+    "Time": 86,
+    "Status": "Running",
+    "Power": 78
 }
