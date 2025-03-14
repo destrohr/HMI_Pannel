@@ -1,3 +1,6 @@
+jsonschema==4.23.0
+jsonschema-specifications==2024.10.1
+opcua==0.98.13
 PyYAML==6.0.2
 streamlit==1.39.0
 streamlit-authenticator==0.4.1
