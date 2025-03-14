@@ -1,5 +1,9 @@
 {
-    "Time": 86,
+    "Time": 0,
     "Status": "Running",
-    "Power": 78
+    "CoolingActive": true,
+    "PreHeatingActive": false,
+    "Voltage": 20,
+    "Current": 2,
+    "Frequency": 1
 }
