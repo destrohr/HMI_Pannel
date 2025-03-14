@@ -17,3 +17,9 @@ Anyone can Run this 4 simple steps.
    Now go ahead and run the app. Just click on Web.py and then execute with below command:  This will open the window 
    **streamlit run web.py**
 
+**HMI Snippet**
+![image](https://github.com/user-attachments/assets/83be4b0c-13ae-42b2-9b50-5a666bc37201)
+
+This HMI has 2 modes simplea nd advance allowing user to select their modes based on their usage.
+The simple mode hase only power and time which can be saved in a seperate DB for furter reference.
+For this operation we used SQlite.
